@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1694113773 source:d:\desktop\eating\game.cpp
+	"Game.h"
+
+1694113814 d:\desktop\eating\game.h
+
+1694116203 source:d:\desktop\eating\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
