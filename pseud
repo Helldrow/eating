@@ -1,0 +1,25 @@
+1. Include necessary libraries (iostream, cstdlib, ctime).
+
+2. Define a struct GameWorld:
+   - Store the number of rows and columns in the game world.
+   - Create a dynamic integer array GameArray to represent the game grid.
+   - Define GameElements as an array containing two characters ('*' and '0').
+   - Implement a constructor to initialize the game world:
+     - Set the number of rows.
+     - Initialize the game array and insert the player character ('1') at a random position.
+   - Implement functions to initialize the game array, insert the player, generate random numbers,
+     move the player left or right, and get the player's current position.
+   - Define a function to print the game grid.
+
+3. In the main function:
+   - Seed the random number generator with the current time.
+   - Create an instance of the GameWorld with 15 rows.
+   - Start a game loop:
+     - Print the current game state.
+     - Prompt the player to input 'A' or 'D' for left or right movement.
+     - Handle player input:
+       - If 'A' or 'a' is pressed, move the player left.
+       - If 'D' or 'd' is pressed, move the player right.
+     - Continue the loop until some condition (blnContinue) is met.
+
+4. End the program.
